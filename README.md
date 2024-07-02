@@ -68,22 +68,11 @@ Este proyecto se centra en el desarrollo y evaluación de modelos de segmentaci�
 
 Los resultados obtenidos muestran la efectividad de la arquitectura UNet para la segmentación de imágenes de heridas, así como la capacidad del algoritmo K-Means para agrupar imágenes con características visuales distintivas. Además, se ha comprobado la utilidad de aplicar PCA para mejorar la separación de clusters en el análisis jerárquico.
 
-### Ejemplos de Resultados
-
-- **Dendrograma con Datos Originales:**
-  ![Dendrograma con Datos Originales](figures/dendrogram_original.png)
-
-- **Dendrograma con Datos de PCA:**
-  ![Dendrograma con Datos de PCA](figures/dendrogram_pca.png)
-
-- **Comparación de Imágenes en Clusters:**
-  ![Comparación de Imágenes](figures/comp1kmeans.png)
-  ![Comparación de Imágenes](figures/comp2kmeans.png)
-
 ## Tecnologías Utilizadas
 
 - Python
-- Keras / TensorFlow
+- Pytorch
+- Pyradiomcs
 - scikit-learn
 - pandas
 - matplotlib
