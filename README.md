@@ -40,28 +40,6 @@ Este proyecto se centra en el desarrollo y evaluación de modelos de segmentaci�
         ```sh
         source env/bin/activate
         ```
-5. Instala las dependencias:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Uso
-
-1. Preprocesa los datos:
-    ```sh
-    python preprocess_data.py
-    ```
-2. Entrena el modelo de segmentación UNet:
-    ```sh
-    python train_unet.py
-    ```
-3. Aplica los algoritmos de clustering:
-    ```sh
-    python clustering.py
-    ```
-4. Realiza la evaluación y visualiza los resultados:
-    ```sh
-    python evaluate.py
     ```
 
 ## Resultados
